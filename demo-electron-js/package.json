@@ -1,0 +1,19 @@
+{
+  "name": "demo-electron-js",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "author": "Hai Ngo",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ./src/main.js",
+    "st": "electron ."
+  },
+  "engines": {
+    "node": ">=18.12.1",
+    "yarn": ">=1.22.19"
+  },
+  "engineStrict": true,
+  "dependencies": {
+    "electron": "^22.0.0"
+  }
+}
